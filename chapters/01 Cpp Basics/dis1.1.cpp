@@ -25,7 +25,7 @@ int main() {
         << "Welcome to c++. \n";
     // << is used to insert data into a stream
 
-    cout << "How many programming languages have you used? ";
+    cout << "How many programming languages have you used?";
 
     // -- Cin, short for `Console input`
     cin >> number_of_languages;
