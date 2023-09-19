@@ -14,7 +14,8 @@ int main() {
     double c = b / a;
     cout << c << " - 3 \n";
     
-    c = (double)b / a;
+    c = (double)b / a; // -- this type of cast is not reccomened
+    // static_cast<e>(v); is the new syntax
     cout << c << " - 4 \n";
 
     c = b / (double)a;
